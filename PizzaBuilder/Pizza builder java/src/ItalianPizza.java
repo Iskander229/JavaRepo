@@ -3,7 +3,6 @@ class ItalianPizza extends Pizza {
     private String herbs;
 
     public ItalianPizza() {this.pizzaName = "Italian";}
-    public void WhatPizza(String Name) {this.pizzaName = Name;}
     public void addOliveOil(String oil) {this.oliveOil = oil;}
     public void addHerbs(String herbs) {this.herbs = herbs;}
 
